@@ -3,21 +3,20 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 
 const inter = Inter({ subsets: ["latin"] });
-
 export const metadata: Metadata = {
-  title: "Notion Clone",
-  description: "A place where you can boast your Productivity by 5 Times",
+  title: "Jotion",
+  description: "The connected workspace where better, faster work happens.",
   icons: {
     icon: [
       {
-        media: "(prefered-color-scheme:light)",
-        url: "./logo.svg",
-        href: "./logo.svg",
+        media: "(prefers-color-scheme: light)",
+        url: "/logo.svg",
+        href: "/logo.svg",
       },
       {
-        media: "(prefered-color-scheme:dark)",
-        url: "./logo-dark.svg",
-        href: "./logo-dark.svg",
+        media: "(prefers-color-scheme: dark)",
+        url: "/logo-dark.svg",
+        href: "/logo-dark.svg",
       },
     ],
   },
