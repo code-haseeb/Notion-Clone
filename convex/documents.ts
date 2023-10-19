@@ -175,7 +175,6 @@ export const remove = mutation({
   },
 });
 
-// if you want something from the database, so i think only handler is required but when there is some change have to occur so it requires args.id, Right?Yes
 export const getSearch = query({
   handler: async (ctx) => {
     const identity = await ctx.auth.getUserIdentity();

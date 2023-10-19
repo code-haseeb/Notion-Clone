@@ -4,7 +4,8 @@ import { createEdgeStoreNextHandler } from "@edgestore/server/adapters/next/app"
 const es = initEdgeStore.create();
 
 const edgeStoreRouter = es.router({
-  publicFiles: es.fileBucket().beforeDelete(() => {
+  publicFiles: es.fileBucket()
+    .beforeDelete(() => {
     return true;
   }),
 });
