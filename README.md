@@ -29,5 +29,5 @@ This is a Notion clone website, designed to mimic some of the features and funct
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/notion-clone.git
+   git clone https://github.com/code-haseeb/notion-clone.git
    ```
